@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+      <title>David DAUDIER Portfolio</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="css/bootstrap.css" rel="stylesheet">
+      <link href="css/style.css" rel="stylesheet">
+      <link href="font/css/fontello.css" rel="stylesheet">
+      <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+      <!-- Link h1, h3, p -->
+      <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">  
+    </head>
+
+    <body>
+      <div class="navbar">
+        <div class="navbar-inner">
+          <div class="container"> 
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> 
+              <span class="icon-bar"></span> 
+              <span class="icon-bar"></span> 
+              <span class="icon-bar"></span> 
+            </a> 
+            <!-- <a class="brand" href="index.html">
+               <img src="img/logo HD Team (png).png" alt="">
+            </a> -->
+            <ul class="nav nav-collapse pull-right">
+              <li><a href="index.html" class="active"><i class="icon-user"></i> Profile</a></li>
+              <li><a href="competences.html"><i class="icon-trophy"></i> Compétences</a></li>
+              <li><a href="travaux.html"><i class="icon-picture"></i> Travaux</a></li>
+              <li><a href="resume.html"><i class="icon-doc-text"></i> Résumé</a></li>
+            </ul>
+            <div class="nav-collapse collapse"></div>
+          </div>
+        </div>
+      </div>
+      <div class="container profile">
+        <div class="span3"> 
+          <img src="img/David.jpg" alt=""> 
+        </div>
+        <div class="span5">
+          <h1>David <b>DAUDIER</b></h1>
+          <h3>Ingénieur en informatique</h3>
+          <p> Hello! Je suis <b>David DAUDIER</b>. Développeur, Programmeur, Graphiste. 
+            Si vous avez quelques choses à faire appelez mon nom et je serai là. :-) </p>
+          <a href="http://wa.me/message/4R46SQUTN5YIF1" class="hire-me"><i class="icon-paper-plane"></i> Engagez-moi </a>
+        </div>
+      </div>
+      <div class="row social">
+        <ul class="social-icons">
+          <li><a href="http://wwww.facebook.com/david.daudier"><img src="img/fb.png" alt=""></a></li>
+          <li><a href="#"><img src="img/tw.png" alt=""></a></li>
+          <li><a href="#"><img src="img/go.png" alt=""></a></li>
+          <li><a href="#"><img src="img/inst.png" alt=""></a></li>
+          <!-- <li><a href="#"><img src="img/pin.png" alt=""></a></li>
+          <li><a href="#"><img src="img/st.png" alt=""></a></li>
+          <li><a href="#"><img src="img/dr.png" alt=""></a></li> -->
+        </ul>
+      </div>
+      <div class="footer" href="css/bootstrap-responsive.css" rel="stylesheet" type="text/css">
+        <div class="container">
+          <p class="pull-left"><a href="http://haitideveloppeurs.com">www.haitideveloppeurs.com</a></p>
+          <p class="pull-right"><a href="#myModal" role="button" data-toggle="modal"> <i class="icon-mail"></i> CONTACT </a>
+          </p>
+        </div>
+      </div>
+      <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        aria-hidden="true">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+          <h3 id="myModalLabel"><i class="icon-mail"></i> Contactez-moi</h3>
+        </div>
+        <div class="modal-body">
+          <form action="#">
+            <input type="text" placeholder="Votre nom">
+            <input type="text" placeholder="Votre adresse courriel">
+            <input type="text" placeholder="votre Website (Optionnel)">
+            <textarea rows="3" style="width:80%"></textarea>
+            <br>
+            <button type="submit" class="btn btn-large"> <a href=""><i class="icon-paper-plane"></i> SOUMETTRE</a></button>
+          </form>
+        </div>
+      </div>
+      <script src="js/jquery-1.10.1.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script>
+        $('#myModal').modal('hidden')
+      </script>
+   </body>
+
+</html>
